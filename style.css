@@ -35,7 +35,9 @@ a {
 img {
   display: block;
   max-width: 100%;
+  border-radius: 0;
 }
+
 
 h1, h2, h3 {
   font-weight: 400;
@@ -89,25 +91,21 @@ h3 {
 /* Mobile */
 
 .header {
-  padding: 28px 0;
+  padding: 24px 0;
 }
 
 .header__inner {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 20px;
+  gap: 12px;
 }
 
-.header__logo {
-  font-size: 22px;
-  font-weight: 500;
-  letter-spacing: -1px;
-  line-height: 1;
-}
-
-.header__logo span {
-  color: var(--color-accent);
+.header__logo img {
+  display: block;
+  width: 190px;
+  height: auto;
+  border-radius: 0;
 }
 
 .header__nav {
@@ -140,6 +138,10 @@ h3 {
   .header__nav {
     gap: 36px;
   }
+
+    .header__logo img {
+    width: 170px;
+  }
 }
 
 /* Desktop */
@@ -151,5 +153,9 @@ h3 {
 
   .header__nav {
     gap: 48px;
+  }
+
+  .header__logo img {
+    width: 190px;
   }
 }
