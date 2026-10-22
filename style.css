@@ -153,6 +153,7 @@ h3 {
 .hero__content {
   width: 100%;
   color: #ffffff;
+  transform: translateY(40px);
 }
 
 .hero__content h1 {
@@ -165,7 +166,7 @@ h3 {
 
 .hero__content p {
   max-width: 420px;
-  margin-bottom: 36px;
+  margin-bottom: 46px;
   font-size: 12px;
   line-height: 1.8;
 }
