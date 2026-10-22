@@ -21,7 +21,7 @@ html {
 
 body {
   font-family: "Inter", sans-serif;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 400;
   line-height: 1.6;
   color: var(--color-text);
@@ -49,11 +49,11 @@ h1 {
 }
 
 h2 {
-  font-size: 30px;
+  font-size: 32px;
 }
 
 h3 {
-  font-size: 20px;
+  font-size: 22px;
 }
 
 .container {
@@ -135,7 +135,7 @@ h3 {
 }
 
 .header__nav a {
-  font-size: 12px;
+  font-size: 14px;
   color: var(--color-text);
 }
 
@@ -184,7 +184,7 @@ h3 {
 .hero__content p {
   max-width: 420px;
   margin-bottom: 46px;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1.8;
 }
 
@@ -220,7 +220,7 @@ h3 {
 
 .about__content p {
   margin-bottom: 35px;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1.8;
 }
 
@@ -242,7 +242,7 @@ h3 {
 }
 
 .about__feature h3 {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 500;
 }
 
@@ -269,7 +269,7 @@ h3 {
 .portfolio__description {
   max-width: 500px;
   margin-bottom: 40px;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1.8;
 }
 
@@ -398,15 +398,15 @@ h3 {
   /* Global */
 
   h1 {
-    font-size: 64px;
+    font-size: 70px;
   }
 
   h2 {
-    font-size: 48px;
+    font-size: 54px;
   }
 
   h3 {
-    font-size: 26px;
+    font-size: 30px;
   }
 
   /* Header */
