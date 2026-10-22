@@ -24,17 +24,28 @@
 
   <body>
     <!-- HEADER -->
-    <header class="header">
-      <div class="container header__inner">
-        <a href="#" class="header__logo">
-          <img src="./images/logo.png" alt="Ella Morgan Photography" />
-        </a>
 
-        <nav class="header__nav" aria-label="Main navigation">
-          <a href="#about">About</a>
-          <a href="#portfolio">Portfolio</a>
-          <a href="#contact">Contact</a>
-        </nav>
+    <header class="header">
+      <div class="container">
+        <div class="header__inner">
+          <a href="#home" class="header__logo">
+            <img src="./images/logo.png" alt="Ella Morgan Photography" />
+          </a>
+
+          <input type="checkbox" id="menu-toggle" class="header__toggle" />
+
+          <label for="menu-toggle" class="header__burger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+
+          <nav class="header__nav">
+            <a href="#about">About</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+          </nav>
+        </div>
       </div>
     </header>
 
