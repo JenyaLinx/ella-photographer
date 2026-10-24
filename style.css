@@ -350,7 +350,7 @@ h3 {
 .equipment__label {
   display: block;
   margin-bottom: 20px;
-  font-size: 12px;
+  font-size: 14px;
   letter-spacing: 1.5px;
 }
 
@@ -363,7 +363,7 @@ h3 {
 .equipment__delivery p {
   max-width: 650px;
   margin-bottom: 20px;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1.8;
 }
 
