@@ -32,15 +32,19 @@
             <img src="./images/logo.png" alt="Ella Morgan Photography" />
           </a>
 
-          <input type="checkbox" id="menu-toggle" class="header__toggle" />
+          <button
+            class="header__burger"
+            type="button"
+            aria-label="Open menu"
+            aria-expanded="false"
+            aria-controls="mobile-navigation"
+          >
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
 
-          <label for="menu-toggle" class="header__burger">
-            <span></span>
-            <span></span>
-            <span></span>
-          </label>
-
-          <nav class="header__nav">
+          <nav class="header__nav" id="mobile-navigation">
             <a href="#about">About</a>
             <a href="#portfolio">Portfolio</a>
             <a href="#contact">Contact</a>
@@ -247,5 +251,7 @@
     </main>
 
     <!-- FOOTER -->
+
+    <script src="./script.js" defer></script>
   </body>
 </html>
