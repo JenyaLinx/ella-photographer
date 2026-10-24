@@ -94,14 +94,6 @@ h3 {
   border-radius: 0;
 }
 
-.header__toggle {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  opacity: 0;
-  pointer-events: none;
-  overflow: hidden;
-}
 
 .header__burger {
   position: absolute;
@@ -109,7 +101,9 @@ h3 {
   display: flex;
   flex-direction: column;
   gap: 5px;
-  padding: 10px 0 10px 10px;
+  padding: 10px;
+  border: none;
+  background: transparent;
   cursor: pointer;
 }
 
@@ -117,7 +111,7 @@ h3 {
   display: block;
   width: 24px;
   height: 2px;
-  background-color: var(--color-text);
+  background-color: #171717;
 }
 
 .header__nav {
@@ -127,18 +121,13 @@ h3 {
   right: 0;
   width: 180px;
   padding: 20px;
-  background-color: var(--color-white);
+  background-color: #ffffff;
   flex-direction: column;
   gap: 20px;
 }
 
-.header__toggle:checked ~ .header__nav {
+.header__nav.is-open {
   display: flex;
-}
-
-.header__nav a {
-  font-size: 14px;
-  color: var(--color-text);
 }
 
 
@@ -420,12 +409,12 @@ h3 {
     width: 170px;
   }
 
-  .header__burger,
-  .header__toggle {
+  .header__burger {
     display: none;
   }
 
-  .header__nav {
+  .header__nav,
+  .header__nav.is-open {
     display: flex;
     position: static;
     width: auto;
@@ -434,6 +423,7 @@ h3 {
     align-items: center;
     gap: 36px;
   }
+
 
   /* Hero */
 
