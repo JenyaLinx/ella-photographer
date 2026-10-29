@@ -881,7 +881,20 @@ h3 {
   }
 
   .footer__socials a {
-    font-size: 24px;
+    font-size: 28px;
+    transition: color 0.2s ease, transform 0.2s ease;
+  }
+  .footer__socials a:hover {
+  color: #A65A43;
+  transform: translateY(-1px);
+}
+
+   .footer__tagline {
+    font-size: 15px;
+  }
+
+  .footer__bottom p {
+    font-size: 14px;
   }
 
 }
