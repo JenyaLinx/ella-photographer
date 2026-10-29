@@ -444,9 +444,6 @@ h3 {
   align-items: center;
   gap: 10px;
 
-  margin-left: 8px;
-  
-
   border-bottom: 1px solid #A65A43;
 
   color: #A65A43;
@@ -460,6 +457,71 @@ h3 {
 .portfolio__contact-link span {
   font-size: 20px;
   line-height: 1;
+}
+
+.footer {
+  padding: 60px 0 30px;
+  background-color: var(--color-soft);
+}
+
+.footer__inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer__logo {
+  display: block;
+  margin-bottom: 30px;
+}
+
+.footer__logo img {
+  width: 140px;
+  height: auto;
+  object-fit: contain;
+  border-radius: 0;
+}
+
+.footer__socials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin-bottom: 50px;
+}
+
+.footer__socials a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-text);
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.footer__bottom {
+  width: 100%;
+  padding-top: 25px;
+  border-top: 1px solid #d8d3cd;
+  text-align: center;
+}
+
+.footer__bottom p {
+  font-size: 12px;
+  line-height: 1.8;
+  color: #777777;
+}
+
+.footer__bottom p + p {
+  margin-top: 10px;
+}
+
+.footer__bottom a {
+  color: var(--color-text);
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 3px;
 }
 
 
@@ -617,10 +679,41 @@ h3 {
     object-fit: cover;
     border-radius: 0;
   }
-
+  
+  .portfolio__contact-link {
+  margin-left: 6px;
 }
 
+.footer {
+    padding: 70px 0 35px;
+  }
 
+  .footer__logo img {
+    width: 160px;
+  }
+
+  .footer__socials {
+    gap: 35px;
+    margin-bottom: 60px;
+  }
+
+  .footer__socials a {
+    font-size: 22px;
+  }
+
+  .footer__bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    text-align: left;
+  }
+
+  .footer__bottom p + p {
+    margin-top: 0;
+  }
+
+}
 
 
 
@@ -761,6 +854,23 @@ h3 {
 
   .contact__image img {
     height: 600px;
+  }
+
+   .footer {
+    padding: 80px 0 40px;
+  }
+
+  .footer__logo img {
+    width: 180px;
+  }
+
+  .footer__socials {
+    gap: 40px;
+    margin-bottom: 70px;
+  }
+
+  .footer__socials a {
+    font-size: 24px;
   }
 
 }
